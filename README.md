@@ -12,19 +12,19 @@
 <h3 id="status"> Status do projeto: Em andamento... 🚧 </h3>
 
 
-<h2 id="#sobre"> 🔎 Sobre o projeto </h2>
+<h2 id="sobre"> 🔎 Sobre o projeto </h2>
 <p> Sessão ainda em construção... </p>
 <br/>
 
-<h2 id="#softwares"> 💻 Softwares utilizados </h2>
+<h2 id="softwares"> 💻 Softwares utilizados </h2>
 <p> Sessão ainda em construção... </p>
 </br>
 
-<h2 id="#acesso"> 🌐 Maneira de acesso </h2>
+<h2 id="acesso"> 🌐 Maneira de acesso </h2>
 <p> Sessão ainda em construção... </p>
 <br/>
 
-<h2 id="#autor"> 👦🏾 Autor </h2>
+<h2 id="autor"> 👦🏾 Autor </h2>
 <p> Sessão ainda em construção... </p>
 
 
