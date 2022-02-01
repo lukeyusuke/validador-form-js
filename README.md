@@ -5,6 +5,7 @@
     <a href="#sobre"> Sobre </a>&nbsp;&nbsp;
     <a href="#softwares"> Softwares </a>&nbsp;&nbsp;
     <a href="#acesso"> Acesso </a>&nbsp;&nbsp; 
+    <a href="#licenca"> Licença </a>&nbsp;&nbsp; 
     <a href="#autor"> Autor </a>
 </div>
 
