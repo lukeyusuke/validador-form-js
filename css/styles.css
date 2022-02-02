@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap');
+
+:root{
+    --primary-color-bg: #EFF4F8;
+    --secondary-color-bg: #FFFFFF;
+    --color-font: #20252A;
+    --default-padding: 7rem;
+}
+
+.default-model{
+    display: flex;
+    align-items: center;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color-bg);
+}
+
+.cadastro{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.data-box{
+    background-color: var(--secondary-color-bg);
+    border-radius: 0 3em 0 0;
+    width: 600px;
+    min-height: 100vh;
+    /* Futura correção no width (pensando na responsividade)*/
+}
+
+.data-box h3{
+    color: var(--color-font);
+    font-size: 1.6em;
+    margin: 0 auto;
+    padding-left: var(--default-padding);
+    padding-top: 3.25em;
+    width: 90%;
+}
+
+.form-box{
+    color: var(--color-font);
+    padding-left: var(--default-padding);
+    margin: 1em auto;
+    width: 90%;
+}
+
+.form-box fieldset{
+    border: none;
+}
+
+.form-box input, #faturamento{
+    border: 1px solid rgba(--color-font);
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    height: 50px;
+    outline: 0;
+    padding-left: 1em;
+    width: 350px;
+}
+
+.form-box input:hover, select:hover, .form-box .contact-box:hover{
+    border: 1px solid #00A868;
+}
+
+.form-box .legenda-faturamento{
+    display: block;
+    margin: -1rem 0 1rem 0;
+    font-size: .8rem;
+    width: 350px;
+}
+
+/* Estilizar o faturamento */
+.form-box .contact-content{
+    justify-content: space-between;
+    width: 350px;
+}
+
+.form-box .contact-box{
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    padding: 1em;
+    width: 170px;
+}
+
+.form-box .contact-box img{
+    width: 30px;
+    margin-right: .25em;
+}
+
+.form-box .button-box{
+    background-color: #69f3be;
+    border: 0;
+    border-radius: 1em;
+    font-size: 1em;
+    margin-top: 1.5em;
+    height: 50px;
+    width: 350px;
+    transition: .2s;
+}
+
+.form-box .button-box:hover{
+    background-color: #27e29a;
+}
+
+
+
+
+
+.info-box .info-more div{
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding-left: 1.5em;
+}
+
+.info-box .company img{
+    width: 150px;
+}
+
+.info-box .service .status{
+    color: #00A868;
+    font-size: 1.25em;
+}
+
+.info-box .call .number-phone{
+    font-size: 1.25em;
+}
+
+.maquininha{
+    width: 450px;
+    margin-bottom: -0.4em;
+}
+
+.beneficts-box{
+    background: var(--color-font);
+    border-radius: 0 0 1.5rem 0;
+    color: var(--secondary-color-bg);
+    padding: 2em;
+    width: 380px;
+}
+
+.beneficts-box h3{
+    margin-bottom: 1em;
+}
+
+.beneficts-box .default-model img{
+    margin-right: .5em;
+}
+
+.beneficts-box div + div{
+    margin-top: 1em;
+}
