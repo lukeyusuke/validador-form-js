@@ -29,26 +29,30 @@ span{
 }
 
 .cadastro{
-    margin: 0 auto;
-    width: 88%;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
 }
 
 .data-box{
     background-color: var(--secondary-color-bg);
     border-radius: 0 3em 0 0;
     min-height: 100vh;
-    width: 600px;
+    min-width: 600px;
 }
 
 .data-box h3{
     color: var(--color-font);
     font-size: 2.5em;
-    padding: 3.5em 0 0 var(--default-padding);
+    margin: 0 auto;
+    padding: 3.5em 0 1em 0;
+    width: 350px;
 }
 
 .form-box{
     color: var(--color-font);
-    padding: var(--default-size) 0 var(--default-size) var(--default-padding);
+    margin: 0 auto;
+    width: 350px;
 }
 
 .form-box fieldset, 
@@ -64,7 +68,7 @@ span{
     margin-bottom: var(--default-size);
     outline: 1px solid rgba(0,0,0,0.5);
     padding-left: var(--default-spacing);
-    width: 350px;
+    width: 100%;
 }
 
 
@@ -82,13 +86,13 @@ span{
     display: block;
     font-size: 1.3em;
     margin: -1.2em 0 1.2em 0;
-    width: 350px;
+    width: 100%;
 }
 
 /* Estilizar o faturamento */
 .form-box .contact-content{
     justify-content: space-between;
-    width: 350px;
+    width: 100%;
 }
 
 .form-box .contact-box{
@@ -97,7 +101,7 @@ span{
     justify-content: center;
     outline: 1px solid rgba(0,0,0,0.5);
     padding: 1em;
-    width: 170px;
+    width: 48%;
 }
 
 .form-box .contact-box,
@@ -116,7 +120,7 @@ span{
     height: 50px;
     margin-top: var(--default-size);
     transition: .2s;
-    width: 350px;
+    width: 100%;
 }
 
 .form-box .button-box:hover{
@@ -169,4 +173,29 @@ span{
 
 .beneficts-box div + div{
     margin-top: var(--default-size);
+}
+
+@media (max-width: 1230px){
+    .data-box{
+        min-width: 350px;
+    }
+
+    .cadastro{
+        display: flex;
+        justify-content: center;
+    }
+
+    .data-box h3, .form-box{
+        width: 300px;
+    }
+}
+
+@media (max-width: 825px){
+    .data-box{
+        width: 450px;
+    }
+
+    .info-box{
+        display: none;
+    }
 }
