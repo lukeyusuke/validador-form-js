@@ -65,7 +65,6 @@ span{
 .form-box input, #faturamento{
     border-radius: .5em;
     height: 50px;
-    margin-bottom: var(--default-size);
     outline: 1px solid rgba(0,0,0,0.5);
     padding-left: var(--default-spacing);
     width: 100%;
@@ -81,6 +80,22 @@ span{
 .form-box .button-box{
     font-size: var(--default-size);
 }
+
+#aviso-nome, 
+#aviso-celular,
+#aviso-email, 
+#aviso-faturamento{
+    margin: .5em 0 2em 0;
+    font-size: 1.25em;
+    color: red;
+}
+
+/* #aviso-email{
+    background-color: red;
+    margin: 1em 0 var(--default-size) 0;
+    width: 20px;
+    height: 20px;
+}  */
 
 .form-box .legenda-faturamento{
     display: block;
