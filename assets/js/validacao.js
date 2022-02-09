@@ -10,38 +10,44 @@ form.addEventListener('submit', function (recebeFormulario){
 
 
     validaNome(pegaNome.value);
-    validaCelular(pegaCelular.value);
+    //validaCelular(pegaCelular.value);
     validaEmail(pegaEmail.value);
-    validaFaturamento(pegaFaturamento.value);
+    //validaFaturamento(pegaFaturamento.value);
 });
 
 function validaNome(nome){
     if(nome == ""){
         const mensagem = document.querySelector("#aviso-nome");
-        msg(mensagem);
+        msg(mensagem)
     }
 }
 
+/*
 function validaCelular(celular){
     if(celular == ""){
         const mensagem = document.querySelector("#aviso-celular");
         msg(mensagem);
     }
-}
+} */
 
 function validaEmail(email){
     if(email == ""){
         const mensagem = document.querySelector("#aviso-email");
         msg(mensagem);
     }
-}
 
-function validaFaturamento(email){
+    if(email.indexOf("@") == -1 || email.indexOf(".") == -1 || email.indexOf(".") - email.indexOf("@") == 1){
+        const mensagem = document.querySelector("#aviso-email");
+        mensagem.innerHTML = "Email inválido";
+    }
+};
+
+/* function validaFaturamento(faturamento){
     if(email == ""){
         const mensagem = document.querySelector("#aviso-faturamento");
         msg(mensagem);
     }
-}
+} */
 
 function msg(mensagem){
     mensagem.innerHTML = "Este campo é obrigatório";

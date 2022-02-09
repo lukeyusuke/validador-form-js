@@ -90,6 +90,11 @@ span{
     color: red;
 }
 
+input[id="email"]:invalid{
+    outline: 1px solid crimson;
+    box-shadow: 0 0 5px crimson;
+}
+
 /* #aviso-email{
     background-color: red;
     margin: 1em 0 var(--default-size) 0;
@@ -140,6 +145,10 @@ span{
 
 .form-box .button-box:hover{
     background-color: #27e29a;
+}
+
+.form-box input:focus{
+    box-shadow: 0 0 px #27e29a;
 }
 
 .info-box .info-more{
