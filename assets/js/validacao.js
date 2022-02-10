@@ -1,13 +1,12 @@
 const form = document.querySelector(".form-box");
 
-form.addEventListener('submit', function (recebeFormulario){
+form.addEventListener('submit', (recebeFormulario) => {
     recebeFormulario.preventDefault();
 
     const pegaNome = document.getElementById("nome");
     const pegaCelular = document.getElementById("celular");
     const pegaEmail = document.getElementById("email");
     const pegaFaturamento = document.getElementById("faturamento");
-
 
     validaNome(pegaNome.value);
     validaCelular(pegaCelular.value);
@@ -16,9 +15,14 @@ form.addEventListener('submit', function (recebeFormulario){
 });
 
 function validaNome(nome){
+    const regex = /[0-9]/;
+    
     if(nome == ""){
         const mensagem = document.querySelector("#aviso-nome");
         msg(mensagem)
+    }else if(regex.test(nome) == true){
+        const mensagem = document.querySelector("#aviso-nome");
+        mensagem.innerHTML = "Nome inválido";
     }
 }
 
