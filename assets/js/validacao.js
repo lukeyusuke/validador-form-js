@@ -10,9 +10,9 @@ form.addEventListener('submit', function (recebeFormulario){
 
 
     validaNome(pegaNome.value);
-    //validaCelular(pegaCelular.value);
+    validaCelular(pegaCelular.value);
     validaEmail(pegaEmail.value);
-    //validaFaturamento(pegaFaturamento.value);
+    validaFaturamento(pegaFaturamento.value);
 });
 
 function validaNome(nome){
@@ -22,32 +22,35 @@ function validaNome(nome){
     }
 }
 
-/*
 function validaCelular(celular){
     if(celular == ""){
         const mensagem = document.querySelector("#aviso-celular");
-        msg(mensagem);
+        msg(mensagem)
+    }else if(isNaN(celular) == true){
+        const mensagem = document.querySelector("#aviso-celular");
+        mensagem.innerHTML = "Celular inválido";
+    }else if(celular.length !== 11){
+        const mensagem = document.querySelector("#aviso-celular");
+        mensagem.innerHTML = "Celular inválido";
     }
-} */
+}
 
 function validaEmail(email){
     if(email == ""){
         const mensagem = document.querySelector("#aviso-email");
         msg(mensagem);
-    }
-
-    if(email.indexOf("@") == -1 || email.indexOf(".") == -1 || email.indexOf(".") - email.indexOf("@") == 1){
+    }else if(email.indexOf("@") == -1 || email.indexOf(".") == -1 || email.indexOf(".") - email.indexOf("@") == 1){
         const mensagem = document.querySelector("#aviso-email");
         mensagem.innerHTML = "Email inválido";
     }
 };
 
-/* function validaFaturamento(faturamento){
-    if(email == ""){
+function validaFaturamento(faturamento){
+    if(faturamento == ""){
         const mensagem = document.querySelector("#aviso-faturamento");
         msg(mensagem);
     }
-} */
+}
 
 function msg(mensagem){
     mensagem.innerHTML = "Este campo é obrigatório";

@@ -90,7 +90,7 @@ span{
     color: red;
 }
 
-input[id="email"]:invalid{
+.error{
     outline: 1px solid crimson;
     box-shadow: 0 0 5px crimson;
 }
