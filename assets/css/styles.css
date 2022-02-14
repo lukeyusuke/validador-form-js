@@ -90,18 +90,6 @@ span{
     color: red;
 }
 
-.error{
-    outline: 1px solid crimson;
-    box-shadow: 0 0 5px crimson;
-}
-
-/* #aviso-email{
-    background-color: red;
-    margin: 1em 0 var(--default-size) 0;
-    width: 20px;
-    height: 20px;
-}  */
-
 .form-box .legenda-faturamento{
     display: block;
     font-size: 1.3em;
@@ -148,7 +136,7 @@ span{
 }
 
 .form-box input:focus{
-    box-shadow: 0 0 px #27e29a;
+    box-shadow: 0 0 10px #27e29a;
 }
 
 .info-box .info-more{
