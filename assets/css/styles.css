@@ -5,9 +5,11 @@
     --default-padding: 7rem;
     --default-size: 1.5em;
     --default-spacing: 1em;
-    --primary-color-bg: #EFF4F8;
-    --secondary-color-bg: #FFFFFF;
-    --third-color-bg: #00AA68;
+
+    --dark-white-bg: #EFF4F8;
+    --white-bg: #FFFFFF;
+    --dark-green-bg: #00AA68;
+    --green-bg: #27e29a;
 }
 
 .default-model{
@@ -20,8 +22,14 @@
 }
 
 body{
-    background-color: var(--primary-color-bg);
+    background-color: var(--dark-white-bg);
     font-size: 62.5%;
+    transition: .3s;
+}
+
+body.dark{
+    background-color: #1E2122;
+    color: white;
 }
 
 span{
@@ -35,7 +43,7 @@ span{
 }
 
 .data-box{
-    background-color: var(--secondary-color-bg);
+    background-color: var(--white-bg);
     border-radius: 0 3em 0 0;
     min-height: 100vh;
     min-width: 600px;
@@ -47,6 +55,15 @@ span{
     margin: 0 auto;
     padding: 3.5em 0 1em 0;
     width: 350px;
+}
+
+body.dark .data-box,
+body.dark .data-box h3,
+body.dark input,
+body.dark #faturamento,
+body.dark .data-box span{
+    background-color: #181A1B;
+    color: white;
 }
 
 .form-box{
@@ -72,7 +89,7 @@ span{
 
 
 .form-box input:hover, select:hover, .form-box .contact-box:hover{
-    outline: 1px solid var(--third-color-bg);
+    outline: 1px solid var(--dark-green-bg);
 }
 
 .form-box input, 
@@ -97,7 +114,11 @@ span{
     width: 100%;
 }
 
-/* Estilizar o faturamento */
+.form-box #faturamento{
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+
 .form-box .contact-content{
     justify-content: space-between;
     width: 100%;
@@ -131,12 +152,17 @@ span{
     width: 100%;
 }
 
+body.dark .button-box{
+    color: white;
+    background-color: #00AA68;
+}
+
 .form-box .button-box:hover{
-    background-color: #27e29a;
+    background-color: var(--green-bg);
 }
 
 .form-box input:focus{
-    box-shadow: 0 0 10px #27e29a;
+    box-shadow: 0 0 10px var(--green-bg);
 }
 
 .info-box .info-more{
@@ -153,12 +179,16 @@ span{
 }
 
 .info-box .service .status{
-    color: var(--third-color-bg);
+    color: var(--dark-green-bg);
 }
 
 .info-box .service .status, 
 .info-box .call .number-phone{
     font-size: var(--default-size);
+}
+
+body.dark .info-box .call .number-phone{
+    color: #00AA68;
 }
 
 .maquininha{
@@ -169,7 +199,7 @@ span{
 .beneficts-box{
     background: var(--color-font);
     border-radius: 0 0 var(--default-size) 0;
-    color: var(--secondary-color-bg);
+    color: var(--white-bg);
     padding: 3.2em;
     width: 380px;
 }
@@ -185,6 +215,45 @@ span{
 
 .beneficts-box div + div{
     margin-top: var(--default-size);
+}
+
+.toggle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.toggle input[type="checkbox"]{
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.toggle label{
+    background-color: var(--green-bg);
+    border-radius: 2em;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    transition: .3s;
+    width: 55px;
+}
+
+.toggle label::after{
+    background-color: var(--white-bg);
+    border-radius: 2em;
+    content: '';
+    height: 25px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 25px;
+    transition: .3s;
+}
+
+body.dark label::after{
+    left: 25px;
 }
 
 @media (max-width: 1230px){
