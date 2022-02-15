@@ -19,13 +19,16 @@
     <li>Responsividade, deixando o site mais acessível para uso em outros dispositivos (celular, tablet...);</li>
     <li>Modo Light/Dark Theme, permitindo que o usuário possa escolher entre o tema claro/escuro; </li>
 </ul>
-<img height="250px" src="./assets/img/imagem-projeto.png">
+
+<div align="center">
+    <img height="250px" src="./assets/img/imagem-projeto.png">
+</div>
 <br/>
 
 <h2 id="softwares"> 💻 Tecnologias utilizadas </h2>
-✅ <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a><br/>
-✅ <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a><br/>
-✅ <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
+✅ <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a><br/>
+✅ <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a><br/>
+✅ <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
 </br>
 
 <h2 id="acesso"> 🌐 Maneira de acesso </h2>
