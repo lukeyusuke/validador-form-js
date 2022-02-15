@@ -92,6 +92,14 @@ body.dark .data-box span{
     outline: 1px solid var(--dark-green-bg);
 }
 
+body.dark .contact-box svg{
+    fill: #00AA68;
+}
+
+.contact-box span{
+    margin-left: .25em;
+}
+
 .form-box input, 
 .form-box #faturamento,
 .form-box #button-box{
