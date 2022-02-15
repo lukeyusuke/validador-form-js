@@ -73,7 +73,7 @@ body.dark .data-box span{
 }
 
 .form-box fieldset, 
-.form-box .button-box,
+.form-box #button-box,
 .form-box input, 
 .form-box #faturamento{
     border: 0;
@@ -94,7 +94,7 @@ body.dark .data-box span{
 
 .form-box input, 
 .form-box #faturamento,
-.form-box .button-box{
+.form-box #button-box{
     font-size: var(--default-size);
 }
 
@@ -134,7 +134,7 @@ body.dark .data-box span{
 }
 
 .form-box .contact-box,
-.form-box .button-box{
+.form-box #button-box{
     cursor: pointer;
 }
 
@@ -143,7 +143,7 @@ body.dark .data-box span{
     width: 30px;
 }
 
-.form-box .button-box{
+.form-box #button-box{
     background-color: #69f3be;
     border-radius: var(--default-size);
     height: 50px;
@@ -152,12 +152,12 @@ body.dark .data-box span{
     width: 100%;
 }
 
-body.dark .button-box{
+body.dark #button-box{
     color: white;
     background-color: #00AA68;
 }
 
-.form-box .button-box:hover{
+.form-box #button-box:hover{
     background-color: var(--green-bg);
 }
 

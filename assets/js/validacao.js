@@ -12,7 +12,6 @@ form.addEventListener('submit', (recebeFormulario) => {
     validaCelular(pegaCelular.value);
     validaEmail(pegaEmail.value);
     validaFaturamento(pegaFaturamento.value);
-
 });
 
 const validaNome = (nome) => {

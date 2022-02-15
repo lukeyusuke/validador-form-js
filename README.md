@@ -3,31 +3,60 @@
 <div id="topicos" align="center">
     <a href="#status"> Status </a>&nbsp;&nbsp;
     <a href="#sobre"> Sobre </a>&nbsp;&nbsp;
-    <a href="#softwares"> Softwares </a>&nbsp;&nbsp;
+    <a href="#softwares"> Tecnologias </a>&nbsp;&nbsp;
     <a href="#acesso"> Acesso </a>&nbsp;&nbsp; 
+    <a href="#autor"> Autor </a>&nbsp;&nbsp; 
+    <a href="#contato"> Contato</a>&nbsp;&nbsp; 
     <a href="#licenca"> Licença </a>&nbsp;&nbsp; 
-    <a href="#autor"> Autor </a>
 </div>
 
-<!-- Aqui virá a imagem do projeto  --> 
 <h3 id="status"> Status do projeto: Em andamento... 🚧 </h3>
 
-
 <h2 id="sobre"> 🔎 Sobre o projeto </h2>
-<p> Sessão ainda em construção... </p>
+<p> Projeto com foco na criação de um validador de formulários em JavaScript, onde também foi utilizado HTML e CSS para estruturação e estilização da página. </p>
+<img height="250px" src="./assets/img/imagem-projeto.png">
 <br/>
 
-<h2 id="softwares"> 💻 Softwares utilizados </h2>
-<p> Sessão ainda em construção... </p>
+<h2 id="softwares"> 💻 Tecnologias utilizadas </h2>
+<ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a></li>
+</ul>
 </br>
 
 <h2 id="acesso"> 🌐 Maneira de acesso </h2>
 <p> Sessão ainda em construção... </p>
 <br/>
 
-<h2 id="autor"> 👦🏾 Autor </h2>
-<p> Sessão ainda em construção... </p>
 
+<h2 id="autor"> 👦🏾 Autor </h2>
+<div>
+    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEbGIkn6zoDTw/profile-displayphoto-shrink_200_200/0/1642622697983?e=1650499200&v=beta&t=lz9Bpr4xIgTxJ0mmZ4Hui5tsnyK1M2AdyxUUT0Ky9ws">
+
+**Criado e desenvolvido por [Luke Yusuke](https://www.linkedin.com/in/lukeyusuke/).**
+</div>
+<br/>
+
+<h2 id="contato"> 📱 Contato </h2>
+<div>
+    <a href="mailto:lukeyusuke09@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/324/324123.png" height="40em" title="E-mail para contato"></a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/lukeyusuke" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/779/779088.png" height="40em" title="GitHub do Luke"></a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/lukeyusuke/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/255/255319.png" height="40em" title="LinkedIn do Luke"></a>
+</div>
+<br/>
+
+
+<h2 id="autor"> 📄 Licença </h2>
+<p> Sessão ainda em construção... </p>
+<br/>
+
+
+<div>
+  &#129145;&nbsp;<a href="#topicos"><strong>Voltar ao topo</strong></a>&nbsp;&#129145;
+</div>
 
 
 
