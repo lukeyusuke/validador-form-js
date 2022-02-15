@@ -13,22 +13,24 @@
 <h3 id="status"> Status do projeto: Em andamento... 🚧 </h3>
 
 <h2 id="sobre"> 🔎 Sobre o projeto </h2>
-<p> Projeto com foco na criação de um validador de formulários em JavaScript, onde também foi utilizado HTML e CSS para estruturação e estilização da página. </p>
+<p> Projeto com foco na criação de um validador de formulários em JavaScript, onde também foi utilizado HTML e CSS para estruturação e estilização da página respectivamente, tendo seu layout baseado no da Stone. Dentro da aplicação, foram inseridos:</p>
+<ul>
+    <li>Validação dos campos do formulário, frisando regras para o usuário colocar dados coerentes para posteriormente ter seu cadastro bem sucedido; </li>
+    <li>Responsividade, deixando o site mais acessível para uso em outros dispositivos (celular, tablet...);</li>
+    <li>Modo Light/Dark Theme, permitindo que o usuário possa escolher entre o tema claro/escuro; </li>
+</ul>
 <img height="250px" src="./assets/img/imagem-projeto.png">
 <br/>
 
 <h2 id="softwares"> 💻 Tecnologias utilizadas </h2>
-<ul>
-    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a></li>
-    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a></li>
-    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a></li>
-</ul>
+✅ <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a><br/>
+✅ <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a><br/>
+✅ <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
 </br>
 
 <h2 id="acesso"> 🌐 Maneira de acesso </h2>
 <p> Sessão ainda em construção... </p>
 <br/>
-
 
 <h2 id="autor"> 👦🏾 Autor </h2>
 <div>
@@ -48,13 +50,11 @@
 </div>
 <br/>
 
-
 <h2 id="autor"> 📄 Licença </h2>
 <p> Sessão ainda em construção... </p>
 <br/>
 
-
-<div>
+<div align="center">
   &#129145;&nbsp;<a href="#topicos"><strong>Voltar ao topo</strong></a>&nbsp;&#129145;
 </div>
 
