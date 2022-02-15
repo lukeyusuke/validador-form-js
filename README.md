@@ -50,8 +50,8 @@
 </div>
 <br/>
 
-<h2 id="autor"> 📄 Licença </h2>
-<p> Sessão ainda em construção... </p>
+<h2 id="licenca"> 📄 Licença </h2>
+O projeto faz uso da Licença<a href="https://github.com/lukeyusuke/validador-form-js/blob/main/LICENSE.md"> MIT</a>
 <br/>
 
 <div align="center">
