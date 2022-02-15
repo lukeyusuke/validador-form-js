@@ -10,7 +10,7 @@
     <a href="#licenca"> Licença </a>&nbsp;&nbsp; 
 </div>
 
-<h3 id="status"> Status do projeto: Em andamento... 🚧 </h3>
+<h4 align="center" id="status"> Status do projeto: Em andamento... 🚧 </h3>
 
 <h2 id="sobre"> 🔎 Sobre o projeto </h2>
 <p> Projeto com foco na criação de um validador de formulários em JavaScript, onde também foi utilizado HTML e CSS para estruturação e estilização da página respectivamente, tendo seu layout baseado no da Stone. Dentro da aplicação, foram inseridos:</p>
