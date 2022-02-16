@@ -260,6 +260,29 @@ body.dark .info-box .call .number-phone{
     transition: .3s;
 }
 
+.cadastro-realizado{
+    animation: 2s show;
+    color: #00AA68;
+    font-size: 1.5em;
+    left: 35px; 
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    width: 300px;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateX(-90px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 body.dark label::after{
     left: 25px;
 }

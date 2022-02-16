@@ -11,7 +11,8 @@ form.addEventListener('submit', (recebeFormulario) => {
     validaNome(pegaNome.value);
     validaCelular(pegaCelular.value);
     validaEmail(pegaEmail.value);
-    validaFaturamento(pegaFaturamento.value);
+    validaFaturamento(pegaFaturamento.value); 
+    cadastroFeito(pegaNome.value, pegaCelular.value, pegaEmail.value, pegaFaturamento.value);
 });
 
 const validaNome = (nome) => {
@@ -23,7 +24,7 @@ const validaNome = (nome) => {
     }else if(regex.test(nome) == true){
         const mensagem = document.querySelector("#aviso-nome");
         mensagem.innerHTML = "Nome inválido";
-    }
+    };
 };
 
 const validaCelular = (celular) =>{
@@ -36,7 +37,7 @@ const validaCelular = (celular) =>{
     }else if(celular.length !== 11){
         const mensagem = document.querySelector("#aviso-celular");
         mensagem.innerHTML = "Número inválido";
-    }
+    };
 };
 
 const validaEmail = (email) => {
@@ -46,13 +47,20 @@ const validaEmail = (email) => {
     }else if(email.indexOf("@") == -1 || email.indexOf(".") == -1 || email.indexOf(".") - email.indexOf("@") == 1){
         const mensagem = document.querySelector("#aviso-email");
         mensagem.innerHTML = "Email inválido";
-    }
+    };
 };
 
 const validaFaturamento = (faturamento) => {
     if(faturamento == ""){
         const mensagem = document.querySelector("#aviso-faturamento");
         msg(mensagem);
+    };
+};
+
+const cadastroFeito = (nome, celular, email, faturamento) => {
+    if(nome && celular && email && faturamento){
+        const cadastro = document.querySelector(".cadastro-realizado")
+        cadastro.innerHTML = "Cadastro realizado com sucesso :)";
     }
 };
 
