@@ -21,7 +21,7 @@
 </ul>
 
 <div align="center">
-    <img height="250px" src="./assets/img/imagem-projeto.png">
+    <img src="./assets/img/imagem-projeto.png">
 </div>
 <br/>
 
