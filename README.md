@@ -10,7 +10,7 @@
     <a href="#licenca"> Licença </a>&nbsp;&nbsp; 
 </div>
 
-<h4 align="center" id="status"> Status do projeto: Em andamento... 🚧 </h3>
+<h4 align="center" id="status"> Status do projeto: Concluído ✅ </h3>
 
 <h2 id="sobre"> 🔎 Sobre o projeto </h2>
 <p> Projeto com foco na criação de um validador de formulários em JavaScript, onde também foi utilizado HTML e CSS para estruturação e estilização da página respectivamente, tendo seu layout baseado no da Stone. Dentro da aplicação, foram inseridos:</p>
@@ -32,7 +32,7 @@
 </br>
 
 <h2 id="acesso"> 🌐 Maneira de acesso </h2>
-<p> Sessão ainda em construção... </p>
+<p> É possível acessar o projeto através do link:<a href="https://lukeyusuke.github.io/validador-form-js/"> https://lukeyusuke.github.io/validador-form-js/ </a>
 <br/>
 
 <h2 id="autor"> 👦🏾 Autor </h2>
